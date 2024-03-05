@@ -1,4 +1,5 @@
 # WeatherViz
+<img src="img/meteo_gif.gif" alt="Overview GIF" width="550" height="320">
 
 ### Installation
 
