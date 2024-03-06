@@ -2,10 +2,9 @@
 <img src="img/meteo_gif.gif" alt="Overview GIF" width="550" height="320">
 
 ### Installation
-
-**Virtual Environment Setup**
+**Virtual Environment Setup**\
 Before setting up the virtual environment, ensure that you have Python 3.9 or higher installed on your system.
-1. Clone the project repository: `git clone https://github.com/p-omahony/score_sde_benchmark.git`
+1. Clone the project repository: `https://github.com/OneLeoTav/WeatherViz.git`
 2. Create a virtual environment: `virtualenv env` on Linux/MacOS or `python -m venv venv` on Windows
 3. Then activate the virtual environment:
 - On Linux/MacOS:
@@ -20,22 +19,23 @@ Before setting up the virtual environment, ensure that you have Python 3.9 or hi
 5. Launch the application locally: `python -B app.py`
 6. Open your preferred web brower and access: http://127.0.0.1:8080
 
-**Run with Docker**
+**Run with Docker**\
 After having cloned the repository, go to the root of the project, open a new terminal:
 1. Build the image: `docker build -t weatherviz -f Dockerfile.txt .`
 2. Run the image: `docker run -it -p 5000:5000 weatherviz`
 3. Open your preferred web brower and access: http://127.0.0.1:8080
 Alternatively, you can use Docker Compose to simplify the process by executing the following command in the terminal `docker compose up`, then access the application at the aforementioned local address.
 
-## Project Outline
+## Project Outline\
 Experience real-time weather forecasts with this Weather Visualization App. Utilizing the capabilities of Flask and Bokeh, this user-friendly interface provides users with intuitive and interactive visualizations of weather data for cities across France. From tracking temperature fluctuations to monitoring wind speeds and precipitation forecasts, stay informed with this dynamic weather visualization tool.
-### Main Features
+
+### Main Features\
 - **City-Specific Data:** Obtain exhaustive weather information for any city in France.
 - **Weather Forecast:** Access weather forecasts for the next six days.
 - **Interactive Visualizations:** Explore temperature variations, precipitation levels, wind speeds, and humidity levels through interactive Bokeh plots.
 - **Hourly Forecast:** Hourly weather predictions for each day for more granular insights.
 
-### Frameworks and Programming Languages Used
+### Frameworks and Programming Languages Used\
 - **Flask:** Utilized as the web framework for building the backend of the application, handling HTTP requests, and rendering HTML templates.
 - **Bokeh:** Leveraged for creating interactive and dynamic visualizations of weather data, enhancing user engagement and understanding.
 - **Python:** Primary programming language for backend development, data processing, and integration of Flask and Bokeh functionalities.
