@@ -15,7 +15,7 @@ Before setting up the virtual environment, ensure that you have Python 3.9 or hi
     ```bash
     python -m virtualenv env && source env/Scripts/activate
     ```
-4. Install project dependencies: `pip install -r requirements.txt
+4. Install project dependencies: `pip install -r requirements.txt`
 5. Launch the application locally: `python -B app.py`
 6. Open your preferred web brower and access: http://127.0.0.1:8080
 
