@@ -4,7 +4,7 @@
 ### Installation
 **Virtual Environment Setup**\
 Before setting up the virtual environment, ensure that you have Python 3.9 or higher installed on your system.
-1. Clone the project repository: `https://github.com/OneLeoTav/WeatherViz.git`
+1. Clone the project repository: `git clone https://github.com/OneLeoTav/WeatherViz.git`
 2. Create a virtual environment: `virtualenv env` on Linux/MacOS or `python -m venv venv` on Windows
 3. Then activate the virtual environment:
 - On Linux/MacOS:
